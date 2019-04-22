@@ -1,5 +1,5 @@
 BlackJack: Main.o DeckOfCards.o BlackJack.o
-	g++ -o BlackJack 7_1.o DeckOfCards.o BlackJack.o
+	g++ -o BlackJack Main.o DeckOfCards.o BlackJack.o
 
 Main.o: Main.cpp DeckOfCards.h BlackJack.o
 	g++ -c Main.cpp
